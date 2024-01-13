@@ -96,14 +96,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             setState(() {});
                           },
                         ),
-                        CustomButton(
-                          text: '/',
-                          color: btn2Color,
-                          onPress: () {
-                            userInput += '/';
-                            setState(() {});
-                          },
-                        ),
+                        // CustomButton(
+                        //   text: '/',
+                        //   color: btn2Color,
+                        //   onPress: () {
+                        //     userInput += '/';
+                        //     setState(() {});
+                        //   },
+                        // ),
                       ],
                     ),
                     Row(
